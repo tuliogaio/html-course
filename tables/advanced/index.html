@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela HTML - Avançado</title>
+  <style>
+    tbody {
+      font-size: 95%;
+      font-style: italic;
+    }
+
+    tfoot {
+      font-weight: bold;
+    }
+    th, td {
+      border: 1px solid gray;
+      padding: 3px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>
+      Relatório Financeiro
+    </caption>
+    <thead>
+      <tr>
+        <th>Ano</th>
+        <th>Produto</th>
+        <th>Vendas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">2023</td>
+        <td>IPhone 14</td>
+        <td>100.000,00</td>
+      </tr>
+      <tr>
+        <td>Samsung S23</td>
+        <td>90.000,00</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2">Total</td>
+        <td>190.000,00</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
